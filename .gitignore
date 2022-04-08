@@ -2,22 +2,3 @@
 
 # dependencies
 /**/node_modules
-/blog/client/.pnp
-/blog/client/.pnp.js
-
-# testing
-/blog/client//coverage
-
-# production
-/blog/client//build
-
-# misc
-/blog/client/.DS_Store
-/blog/client/.env.local
-/blog/client/.env.development.local
-/blog/client/.env.test.local
-/blog/client/.env.production.local
-
-/blog/client/npm-debug.log*
-/blog/client/yarn-debug.log*
-/blog/client/yarn-error.log*
