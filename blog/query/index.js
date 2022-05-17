@@ -32,6 +32,7 @@ const handleEvent = (type, data) => {
         const { id, content, postId, status } = data;
 
         const post = posts[postId];
+        
         post.comments.push({ id, content, status });
     }
 
@@ -57,6 +58,6 @@ app.listen(4002, async () => {
             handleEvent(event.type, event.data);
         }
     } catch (error) {
-        console.log({status: 'ERROR', message});
+        console.log({status: 'ERROR', messae: error.message});
     }
 })
